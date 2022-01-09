@@ -1,0 +1,103 @@
+
+/* Apply css to an html type  */
+
+
+
+
+table{
+    border:1px solid black;
+    width:100%;
+    padding: 100px;
+}
+
+thead{
+    background-color: rgb(247, 253, 250);
+
+
+}
+td{
+    border:1px solid rgb(0, 3, 2);
+}
+th{
+    font-size: 20px;
+}
+tr:hover {
+    background-color: rgb(247, 253, 250);;
+}
+
+img{
+    height:120px;
+}
+
+/* style a particiular elements with particular class */
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.siteTitle{
+    font-size:30px;
+    text-align: center;
+    color : black;
+    font-family: 'Times New Roman', Times, serif;
+
+    /* text-shadow: -2px -2px 2px black; */
+
+}
+
+.nav{
+    list-style:none;
+    text-transform: capitalize;
+}
+header{
+    border-bottom: 2px solid rgb(229, 241, 235);
+}
+
+/* if there is any <li> inside .nav */
+
+.nav li{
+    display:inline;
+    
+}
+
+.nav li, .nav a{
+    /* margin-left:200px; */
+    float : right ;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:26px;
+    color: rgb(0, 5, 2);
+}
+
+.nav li a:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.search-bar{
+    background-color:white;
+    padding:5px;
+    /* box-shadow: -5px 5px 5px black; */
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.search-bar button{
+   background-color:white;
+   width:80px;
+   font-size:20px;
+}
+
+.search-bar select{
+    background-color: white;
+    font-size:20px;
+}
+
+.search-bar input{
+    background-color: white;
+    border:10px;
+    font-size:20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class='siteTitle'>Book's Web</h1>
+        <ul class='nav'>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li><a href="/add.html">Add Book</a></li>
+            <li><a href="/authors">Authors</a></li>
+            
+        </ul>
+    </header>
+
+    <div>
+        <h1>Our Book List</h1>
+
+        <div class='search-bar'>
+            Search
+
+            <select id="search-type">
+                <option value="isbn">ISBN</option>
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="rating">Min Rating</option>
+                <option value="price">Price Range</option>
+            </select>
+            <input type='search' placeholder='search' id='search-text' />
+            <button id="search-button">Go</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Cover</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                    <td>Actions</td>
+                </tr>
+            </thead>
+
+            <tbody id='book-list'>
+                <!-- <tr>
+                    <td>
+                        <img src='https://m.media-amazon.com/images/I/41-KqB1-cqL._SY346_.jpg'/>
+                    </td>
+                    <td>The Accursed God</td>
+                    <td>Vivek Dutta Mishra</td>
+                    <td>399</td>
+                    <td>4.2</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src='https://m.media-amazon.com/images/I/51UoqRAxwEL.jpg'/>
+                    </td>
+                    <td>Harry Potter and the Philospher's stone</td>
+                    <td>JK Rowling</td>
+                    <td>109</td>
+                    <td>4.8</td>
+                </tr> -->
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src="scripts/utils.js"></script>
+    <script src='scripts/book.js'></script>
+    <script src='scripts/book-manager.js'></script>
+    <script src='scripts/index.js'></script>
+   
+
+</body>
+</html>

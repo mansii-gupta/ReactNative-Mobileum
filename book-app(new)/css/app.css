@@ -1,0 +1,162 @@
+
+/* Apply css to an html type  */
+
+
+body{
+    background-color:#fcde67 ;
+}
+
+table{
+    border:1px solid black;
+    width:100%;
+}
+
+thead{
+    background-color: mediumseagreen;
+
+}
+td{
+    border:1px solid mediumseagreen;
+}
+
+img{
+    height:120px;
+}
+
+/* style a particiular elements with particular class */
+h1{
+    color:mediumseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.siteTitle{
+    font-size:30px;
+    text-shadow: -2px -2px 2px black;
+}
+
+.nav{
+    list-style:none;
+    text-transform: capitalize;
+}
+header{
+    border-bottom: 2px solid mediumseagreen;
+}
+
+/* if there is any <li> inside .nav */
+
+.nav li{
+    display:inline;
+    
+}
+
+.nav li, .nav a{
+    margin-right:10px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    font-size:16px;
+    color: seagreen;
+}
+
+.nav li a:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.search-bar{
+    background-color:mediumseagreen;
+    padding:5px;
+    box-shadow: -5px 5px 5px black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.search-bar button{
+   background-color: mediumseagreen;
+   width:80px;
+   font-size:20px;
+}
+
+.search-bar select{
+    background-color: mediumseagreen;
+    font-size:20px;
+}
+
+.search-bar input{
+    background-color: mediumseagreen;
+    border:0px;
+    font-size:20px;
+}
+
+.action-link{
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 5px;
+    min-width: 100px;
+    width:100px;
+    padding:5px;
+    margin:5px;
+    background-color:mediumseagreen;
+    color:black;
+    font-weight: bold;
+    text-transform: capitalize;
+    display:block;
+    text-align: center;
+}
+
+.danger{
+    background-color: orangered;
+}
+
+.column-container{
+    
+    display:flex;
+    flex-direction: row;
+}
+.column-left{
+  
+    flex:4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 'center';
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-right:2px solid mediumseagreen;
+}
+
+.column-right{
+    
+    padding:10px;
+    flex:5;
+}
+.meta-info{
+    color: mediumseagreen;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#book-title{ 
+
+   
+    font-size:1.5em;
+    text-shadow: -2px -2px 2px black;
+    
+}
+#book-author{
+    font-size:1.25em;
+}
+
+#book-details-cover{
+    width:75%;
+    max-width:200px;
+    height:auto;
+    border: 15px solid rgb(26, 25, 24);
+    border-radius:10px;
+    box-shadow: -5px 5px 5px gray;
+    padding:10px;
+    background:white;
+    margin:5px;
+}
