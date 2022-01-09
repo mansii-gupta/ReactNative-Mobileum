@@ -3,6 +3,8 @@ const {sequelize} = require('./connection');
 
 //write a require for each your model like below
 require('./models/book')(sequelize);
+require('./models/author')(sequelize);
+require('./models/user')(sequelize);
 
 
 

@@ -4,8 +4,8 @@ const {Sequelize}=require('sequelize');
 //create a connection
 
 const username='postgres';
-const password='tr@1n1ng';
-const dbName='mbooks';
+const password='M@nsi1109';
+const dbName='mBook';
 const host='localhost';
 const dialect='postgres'; //which data base you are using. query will be generated accordingly
 

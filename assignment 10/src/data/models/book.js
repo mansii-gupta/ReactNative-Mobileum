@@ -1,8 +1,9 @@
 const { Sequelize, DataTypes } = require('sequelize');
+const{ sequelize} = require('../connection');
 
 
 module.exports=(sequelize) =>{
-    console.log('building the model Book');
+    console.log('building the model Books');
     sequelize.define(
         "Book", //Name of this model
         {
@@ -20,4 +21,5 @@ module.exports=(sequelize) =>{
     
         }
     );
+      
 } 
