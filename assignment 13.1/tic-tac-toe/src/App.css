@@ -1,0 +1,96 @@
+/* full body  */
+body{
+    background-color: black;
+}
+
+/* we don't know  */
+h1{
+  
+}
+
+/* Tic Tac Toe */
+.site-title{
+   color: white;
+   font-style: italic;
+   text-align: center;
+   font-size: 50px;
+   
+   
+}
+
+/* we don't know  */
+
+AppHeader{
+    
+}
+
+
+/* Header Band */
+header{
+   
+}
+
+
+.app{
+    padding-left: 10px;
+
+}
+
+
+
+
+/* full board */
+.game{
+    color: rgb(255, 249, 249);
+    font-size: 30px;
+    padding-left: 70px;
+    /* display:flex; */
+    /* align-items: center; */
+}
+
+/* area of square tile */
+.board{
+    padding-left: 460px;
+
+}
+
+
+/* each cell */
+.cells{
+    display:grid;
+    grid-template-rows:100px 100px 100px ;
+    grid-template-columns:100px 100px 100px ;
+    
+}
+.cell{
+   background-color: rgb(226, 226, 255);
+   width: 100px;
+   height: 100px;
+   border: rgb(0, 0, 0) 5px solid;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.reset{
+    font-size:25px;
+    border-radius: 10px;
+
+}
+
+table ,th ,td {   
+    color:  rgb(243, 239, 239);
+    border:1px solid white;
+    width:30%;
+    text-align: center;
+    font-size:25px;
+    
+
+}
+td{
+    color: rgb(255, 255, 255);
+}
+
+
+
